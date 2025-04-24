@@ -12,3 +12,4 @@ namespace PedidosApp
         string TipoEntrega();
     }
 }
+//Implementar Interfaz Metodo de entrega
