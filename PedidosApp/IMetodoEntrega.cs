@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Interfaz para definir el método de entrega
 namespace PedidosApp
 {
     public interface IMetodoEntrega
@@ -12,3 +13,5 @@ namespace PedidosApp
         string TipoEntrega();
     }
 }
+
+

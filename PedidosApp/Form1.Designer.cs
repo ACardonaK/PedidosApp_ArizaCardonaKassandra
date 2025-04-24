@@ -39,13 +39,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).BeginInit();
             this.SuspendLayout();
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(169, 36);
+            this.txtCliente.Location = new System.Drawing.Point(168, 95);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(100, 20);
             this.txtCliente.TabIndex = 0;
@@ -53,7 +54,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(81, 43);
+            this.label1.Location = new System.Drawing.Point(81, 102);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 1;
@@ -66,7 +67,7 @@
             "tecnología",
             "accesorio",
             "componente"});
-            this.cmbProducto.Location = new System.Drawing.Point(169, 91);
+            this.cmbProducto.Location = new System.Drawing.Point(168, 167);
             this.cmbProducto.Name = "cmbProducto";
             this.cmbProducto.Size = new System.Drawing.Size(121, 21);
             this.cmbProducto.TabIndex = 2;
@@ -74,7 +75,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 99);
+            this.label2.Location = new System.Drawing.Point(81, 175);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 3;
@@ -83,7 +84,7 @@
             // chkUrgente
             // 
             this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(336, 98);
+            this.chkUrgente.Location = new System.Drawing.Point(362, 171);
             this.chkUrgente.Name = "chkUrgente";
             this.chkUrgente.Size = new System.Drawing.Size(64, 17);
             this.chkUrgente.TabIndex = 4;
@@ -92,7 +93,7 @@
             // 
             // nudPeso
             // 
-            this.nudPeso.Location = new System.Drawing.Point(169, 152);
+            this.nudPeso.Location = new System.Drawing.Point(169, 233);
             this.nudPeso.Name = "nudPeso";
             this.nudPeso.Size = new System.Drawing.Size(120, 20);
             this.nudPeso.TabIndex = 5;
@@ -100,7 +101,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(81, 159);
+            this.label3.Location = new System.Drawing.Point(76, 240);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 6;
@@ -108,7 +109,7 @@
             // 
             // nudDistancia
             // 
-            this.nudDistancia.Location = new System.Drawing.Point(170, 203);
+            this.nudDistancia.Location = new System.Drawing.Point(169, 291);
             this.nudDistancia.Name = "nudDistancia";
             this.nudDistancia.Size = new System.Drawing.Size(120, 20);
             this.nudDistancia.TabIndex = 7;
@@ -116,7 +117,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(81, 210);
+            this.label4.Location = new System.Drawing.Point(59, 298);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 13);
             this.label4.TabIndex = 8;
@@ -124,7 +125,7 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(185, 263);
+            this.btnCalcular.Location = new System.Drawing.Point(184, 340);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(118, 23);
             this.btnCalcular.TabIndex = 9;
@@ -140,11 +141,22 @@
             this.lblResultado.Size = new System.Drawing.Size(0, 13);
             this.lblResultado.TabIndex = 10;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(359, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "PEDIDOS";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.label4);
@@ -178,6 +190,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Label label5;
     }
 }
 
