@@ -26,3 +26,4 @@ namespace PedidosApp
         public double ObtenerCosto() => MetodoEntrega.CalcularCosto(Distancia);
     }
 }
+//Clase pedido 
