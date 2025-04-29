@@ -1,6 +1,6 @@
 ﻿namespace PedidosApp
 {
-    partial class Form1
+    partial class btnVerHistorial
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -39,6 +39,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).BeginInit();
             this.SuspendLayout();
@@ -140,11 +141,22 @@
             this.lblResultado.Size = new System.Drawing.Size(0, 13);
             this.lblResultado.TabIndex = 10;
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(577, 273);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Ver Historial de Pedidos";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnVerHistorial_Click);
+            // 
+            // btnVerHistorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(768, 363);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.label4);
@@ -156,7 +168,7 @@
             this.Controls.Add(this.cmbProducto);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtCliente);
-            this.Name = "Form1";
+            this.Name = "btnVerHistorial";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).EndInit();
@@ -178,6 +190,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button button1;
     }
 }
 

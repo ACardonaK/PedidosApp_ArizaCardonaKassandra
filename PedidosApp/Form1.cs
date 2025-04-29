@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PedidosApp
 {
-    public partial class Form1: Form
+    public partial class btnVerHistorial: Form
     {
-        public Form1()
+        public btnVerHistorial()
         {
             InitializeComponent();
         }
@@ -35,6 +35,12 @@ namespace PedidosApp
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
+        }
+
+        private void btnVerHistorial_Click(object sender, EventArgs e)
+        {
+            HistorialPedidosForm historialForm = new HistorialPedidosForm();
+            historialForm.ShowDialog();
         }
     }
 }
