@@ -1,6 +1,6 @@
 ﻿namespace PedidosApp
 {
-    partial class btnVerHistorial
+    partial class Form1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -143,9 +143,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(577, 273);
+            this.button1.Location = new System.Drawing.Point(538, 273);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 23);
+            this.button1.Size = new System.Drawing.Size(157, 23);
             this.button1.TabIndex = 11;
             this.button1.Text = "Ver Historial de Pedidos";
             this.button1.UseVisualStyleBackColor = true;
@@ -170,6 +170,7 @@
             this.Controls.Add(this.txtCliente);
             this.Name = "btnVerHistorial";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.btnVerHistorial_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).EndInit();
             this.ResumeLayout(false);

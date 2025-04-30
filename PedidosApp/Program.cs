@@ -16,7 +16,8 @@ namespace PedidosApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new btnVerHistorial());
+            Application.Run(new Form1());
         }
     }
 }
+    
