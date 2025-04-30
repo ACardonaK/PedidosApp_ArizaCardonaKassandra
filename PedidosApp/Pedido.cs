@@ -15,6 +15,8 @@ namespace PedidosApp
         public int Distancia { get; set; }
         public IMetodoEntrega MetodoEntrega { get; set; }
         public Pedido(string cliente, string producto, bool urgente, double peso, int distancia)
+        
+       
         {
             Cliente = cliente;
             Producto = producto;
@@ -26,4 +28,4 @@ namespace PedidosApp
         public double ObtenerCosto() => MetodoEntrega.CalcularCosto(Distancia);
     }
 }
-//Clase pedido 
+

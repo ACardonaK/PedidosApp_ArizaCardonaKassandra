@@ -39,7 +39,7 @@
             this.dgvPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPedidos.Location = new System.Drawing.Point(22, 12);
             this.dgvPedidos.Name = "dgvPedidos";
-            this.dgvPedidos.Size = new System.Drawing.Size(525, 318);
+            this.dgvPedidos.Size = new System.Drawing.Size(639, 318);
             this.dgvPedidos.TabIndex = 0;
             // 
             // cmbFiltroEntrega
@@ -47,18 +47,19 @@
             this.cmbFiltroEntrega.FormattingEnabled = true;
             this.cmbFiltroEntrega.Items.AddRange(new object[] {
             "Todos",
-            "Dron",
             "Motocicleta",
             "Camión",
-            "Bicicleta"});
-            this.cmbFiltroEntrega.Location = new System.Drawing.Point(622, 66);
+            "Bicicleta",
+            "Dron"});
+            this.cmbFiltroEntrega.Location = new System.Drawing.Point(667, 35);
             this.cmbFiltroEntrega.Name = "cmbFiltroEntrega";
             this.cmbFiltroEntrega.Size = new System.Drawing.Size(121, 21);
             this.cmbFiltroEntrega.TabIndex = 1;
+            this.cmbFiltroEntrega.SelectedIndexChanged += new System.EventHandler(this.cmbFiltroEntrega_SelectedIndexChanged);
             // 
             // btnFiltrar
             // 
-            this.btnFiltrar.Location = new System.Drawing.Point(622, 142);
+            this.btnFiltrar.Location = new System.Drawing.Point(687, 92);
             this.btnFiltrar.Name = "btnFiltrar";
             this.btnFiltrar.Size = new System.Drawing.Size(75, 23);
             this.btnFiltrar.TabIndex = 2;
